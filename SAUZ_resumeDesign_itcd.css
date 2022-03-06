@@ -1,0 +1,57 @@
+.sauz_profile_pic{
+	float: right;
+	padding-right:92px;
+}
+body{
+	background-color: #FFEFD5;
+	font-family: Verdana, Tahoma, Sans-serif;
+	color: #000000;
+}
+div{
+	border:2px solid #FFFFFF; 
+	width: 100%; 
+	background-color:#FFFFFF;
+}
+h3.a{
+	margin-left: 260px;
+	text-align: left;
+	font-family:Bahnschrift Condensed;
+	font-size: 1.875em;
+}
+h3.b{
+	margin-left: 260px;
+	text-align: left;
+	font-family:Bahnschrift Condensed;
+	font-size: 1.25em;
+}
+h3.c{
+	text-align: left;
+	font-family:Bahnschrift Condensed;
+	font-size: 1.3125em;
+}
+a{
+	margin-left: 10px;
+	text-align: left;
+	font-size: 1.125em;
+}
+h2{
+	text-align:left;
+	font-family:Rockwell, 'Bookman Old Style', serif;
+	font-size: 1.375em;
+	background-color:#DEB887;
+	color: #FFFFFF;
+	text-transform:upppercase;
+	word-spacing:14px;
+	text-shadow: 5px 5px 6px #DEB887;
+}
+p{
+	text-align:justify;
+	font-size:1em;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	line-height:24px;
+	word-spacing:5px;
+}
+ul{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	line-height:24px;
+}
