@@ -1,0 +1,59 @@
+<html>
+<head>
+<base target="newSpace"/>
+<title>Solar System</title>
+<script language="JavaScript">
+    function writeText (txt) {
+    document.getElementById("desc").innerHTML=txt;
+    }
+    function dissolveText (txt) {
+    document.getElementById("desc").innerHTML=txt;
+    }
+    </script>
+<style>
+    h1{
+        text-align: center;
+        color: #00FFFF;
+        font-size: 50px;
+        font-family: Bahnschrift Condensed;
+    }
+    body{
+        background-image:url('IMAGES/galaxy.gif');
+        background-repeat:no-repeat;
+        background-attachment:fixed;
+	    background-size:cover;
+        margin: 10px;
+    }
+    p#desc{
+        font-family:Bahnschrift Condensed;;
+        color: aqua(255, 255, 255);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center; 
+        font-size: 30px;
+        font-weight: bold;
+        }
+</style>
+</head>
+
+<body>
+    <h1>Solar System</h1>
+    <br><br>
+    <div align="center">
+        <img src="IMAGES/solar_system.jpg" usemap="#solarSystem">
+        <map name="solarSystem">
+            <area shape="circle" coords="201,393,19" href="HTML/mercury.html"  onmouseover="writeText('Along with Venus, Earth, and Mars, Mercury is one of the rocky planets.');" onmouseout="dissolveText('');"/>
+            
+            <area shape="rect" coords="36,253,151,310" href="HTML/earth.html"
+            onmouseover="writeText('Our home planet Earth is a rocky, terrestrial planet. It has a solid and active surface with mountains, valleys, canyons, plains and so much more.');" onmouseout="dissolveText('');"/>
+            
+
+            <area shape="poly" coords="245,68,245,66,246,63,247,60,248,58,249,57,250,55,251,52,252,51,253,50,254,48,255,48,256,47,257,44,258,44,259,43,260,42,261,41,262,39,263,38,264,38,266,37,268,35271,35272,34,273,33274,33275,33,277,32,278,32,280,31281,31,283,30,284,30,286,30,289,29,290,30,291,30,294,30,296,30,298,31,300,32,301,32,303,33,304,33,306,33,308,34,309,35,311,36,312,37,313,37316,39,318,41,320,42,321,43,322,46,323,47,324,49,325,50,328,52329,55,330,56,331,58,332,60,331,63,332,64,333,66,333,72,333,74,332,79,331,82,331,84,330,86,329,89,328,91,327,93,327,95,326,97,325,99,323,100,321,102,319,104,318,105,316,106,314,109,312,109,311,110,309,112,306,113,304,114,303,115,301,115,299,116,296,116,295,117,292,118,289,118,288,117,285,117,283,117,280,116,278,116,276,116,273,115,271,115,270,114,268,112,265,111,261,108,258,106,258,104,256,102,255,101,253,99,251,98,290,48,293,49,296,48,298,49,300,49,301,51,301,51,305,52,306,53,307,54,309,55,310,57,311,59,312,60,313,62,314,65,314,67,315,69,315,72,315,75,315,78,314,81,313,84,312,85,310,88,308,89,307,90,305,92,304,93,302,94,300,95,298,97,296,97,294,97,292,97,290,97287,96,284,96,281,95,279,93,277,92,275,90,274,88,273,86,271,85,270,82,270,80,269,78,268,75,268,73,269,70,269,68,270,66,271,62,272,59,273,59,275,56,277,54,279,52,281,51,284,50,286,49,288,49,290,48," href="HTML/uranus.html" onmouseover="writeText('Uranus is the coldest planet in the Solar System: Uranus is the seventh planet from the Sun, orbiting at a distance of 2.88 billion km');" onmouseout="dissolveText('');"/>
+
+        </map>
+    </div>
+    <p id="desc"></p>
+
+</body>
+</html>
+
+
