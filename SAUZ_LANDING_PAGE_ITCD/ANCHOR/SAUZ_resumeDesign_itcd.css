@@ -1,0 +1,84 @@
+.sauz_profile_pic{
+	float: right;
+	padding-right:92px;
+	max-width: 100%;
+}
+body{
+	background-color: #FFEFD5;
+	font-family: Verdana, Tahoma, Sans-serif;
+	color: #000000;
+	max-width: 100%;
+}
+div{
+	border:2px solid #FFFFFF; 
+	width: 100%; 
+	background-color:#FFFFFF;
+	max-width: 100%;
+}
+h3.a{
+	margin-left: 260px;
+	text-align: left;
+	font-family:Bahnschrift Condensed;
+	font-size: 1.875em;
+	max-width: 100%;
+}
+h3.b{
+	margin-left: 260px;
+	text-align: left;
+	font-family:Bahnschrift Condensed;
+	font-size: 1.25em;
+	max-width: 100%;
+}
+h3.c{
+	text-align: left;
+	font-family:Bahnschrift Condensed;
+	font-size: 1.3125em;
+	max-width: 100%;
+}
+a{
+	margin-left: 10px;
+	text-align: left;
+	font-size: 1.125em;
+	max-width: 100%;
+}
+h2{
+	text-align:left;
+	font-family:Rockwell, 'Bookman Old Style', serif;
+	font-size: 1.375em;
+	background-color:#DEB887;
+	color: #FFFFFF;
+	text-transform:upppercase;
+	word-spacing:14px;
+	text-shadow: 5px 5px 6px #DEB887;
+	max-width: 100%;
+}
+p{
+	text-align:justify;
+	font-size:1em;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	line-height:24px;
+	word-spacing:5px;
+	max-width: 100%;
+}
+ul{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	line-height:24px;
+	max-width: 100%;
+}
+div.a{
+	border: none;
+	background-color:papayawhip;
+	max-width: 100%;
+}
+.landing-container{
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	max-width: 100%;
+}
+a.landing-container:hover{
+	text-decoration: none;
+	color: burlywood;
+	max-width: 100%;
+}
