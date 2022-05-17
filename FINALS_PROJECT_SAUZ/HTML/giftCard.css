@@ -1,0 +1,228 @@
+footer{
+    width: 100%;
+}
+
+table {
+    position: absolute;
+    left: -1rem;
+    text-align: center;
+    width: calc(100% + 1rem);
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+th {
+    padding: 5px;
+    padding-bottom: 25px;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.facebook_icon {
+    width: 50px;
+    margin-left: 647px;
+}
+
+.instagram_icon {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.twitter_icon {
+    width: 50px;
+    margin-left: 10px;
+}
+
+.email_icon {
+    width: 50px;
+    margin-left: 10px;
+}
+
+
+.landingpage-navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    /* margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px; */
+    width: 100%;
+}
+
+.sign {
+    width: 100px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    padding: 30px 10px;
+    display: inline-block;
+}
+
+.sign {
+    float: right;
+
+}
+
+.logo {
+    float: left;
+    width: 170px;
+    height: 80px;
+    padding-left: 1em;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+
+
+.landingpage-nav-dropdown:hover .nav-dropbtn {
+    background-color: white;
+    color: black;
+}
+
+.landingpage-nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.landingpage-nav-dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.landingpage-nav-dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.landingpage-nav-dropdown:hover .landingpage-nav-dropdown-content {
+    display: block;
+}
+
+.landingpage-nav-dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.landingpage-nav-dropdown .nav-dropbtn {
+    width: 130px;
+    font-size: 19px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 30px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+
+
+
+.col {
+    /* border: 1px solid gray; */
+    padding: 2rem;
+}
+
+.shoes-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.shoes-img {
+    width:40rem;
+    height:30rem;
+	border-radius:15px;
+}
+
+.sidebar>ul {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 28, 28);
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn-addtobag, .btn-favourite{
+    display: block;
+    width: 100%;
+    border: none;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+.side-container>*:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.btn-addtobag {
+    background-color: rgb(28, 28, 28);
+    color: white;
+}
+
+.btn-addtobag:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+.btn-favourite {
+    background-color: white;
+    border: 1px solid rgb(195, 195, 195);
+}
+
+.btn-favourite:hover {
+    border: 1px solid gray;
+}
+
+.shoes-name {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p,
+li {
+    line-height: 2rem;
+}
+
+.side-container-row2>*:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.shoes-price {
+    font-weight: bold;
+}
+.back_arrow{
+    width:50px;
+}

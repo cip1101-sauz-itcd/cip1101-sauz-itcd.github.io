@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<link rel="icon" href="MEDIA/shoe_store_logo.webp" type="image/x-icon">
+<title>JOIN US FORM</title>
+<style type="text/css">
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 200px;
+    }
+
+    .navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    margin-top: -9px;
+    margin-left: -9px;
+    margin-right: -9px;
+    width: 1520px;
+    }
+
+    .sign {
+    width:100px;
+    display:block;
+    text-decoration:none;
+    text-align: center;
+    font-size:19px;
+    color:white;
+    padding:30px 10px;
+    display:inline-block;
+    }
+
+    .sign{
+        float:right;
+        
+    }
+
+    .logo{
+        float: left;
+        width:170px;
+        height:80px;
+        padding-left: 1em;
+    }
+    
+    .dropdown:hover .dropbtn {
+    background-color: white;
+    color: black;
+    }
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    }
+
+    .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    }
+
+    .dropdown-content a:hover {
+    background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+    }
+
+    .dropdown {
+    float: left;
+    overflow: hidden;
+    }
+
+    a{
+    color: white;
+    text-decoration: none;
+    }
+
+    a:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    }
+
+    .dropdown .dropbtn {
+    width:130px;
+    font-size: 19px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding:30px 10px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    text-decoration: none;
+    }
+    fieldset{
+        color: black;
+        background-color: white;
+        width: 45%;
+        min-width:320px;
+        margin:auto;
+        border: 5px solid white;
+        border: 5px solid black;
+    }
+    textarea{
+        min-height: 8em;
+        min-width: 40%;
+        padding: .5em;
+        border: solid 1px #999;
+        border-radius: 4px;
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+        margin-right:.5em;
+        resize:none;    
+    }
+    input[type="submit"]{
+        margin-top: 1em;
+        padding: .5em 1em;
+        border-radius: 6px;
+        background-color: black;
+        color: #fff;
+        font-family: 'Tahoma', sans-serif;
+        font-size: .8em;
+    }
+    h1{
+        text-align: center;
+        font-size: 60px;
+        word-spacing: 10px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: black;
+    }
+    h2{
+        text-align: center;
+        border-radius: 50px;
+        padding: 5px;
+        background-color: black;
+        color: white;
+        margin-left: 100px;
+        margin-right: 100px;
+        word-spacing: 10px;
+    }
+    .name input[type="text"]{
+        width: 407px;
+        padding: 13px;
+        margin-left: 35px;
+    }
+    .address input[type="text"]{
+        width: 407px;
+        padding: 13px;
+        margin-left: 18px;
+    }
+    input[type="number"]{
+        width: 50px;
+        padding: 5px;
+        margin-left: 3px;
+    }
+    input[type="phone"]{
+        width: 340px;
+        padding: 13px;
+        margin-left: 18px;
+    }
+    input[type="email"]{
+        width: 339px;
+        padding: 13px;
+        margin-left: 35px;
+    }
+    input[type="password"]{
+        width: 380px;
+        padding: 13px;
+        margin-left: 35px;
+    }
+    .name label{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .address label{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .contact label{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .email label{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .password label{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .message label{
+        margin-left: 60px;
+        font-size: 20px;
+    }
+    .quantity label{
+        margin-left: 35px;
+        font-size: 18px;
+    }
+    textarea{
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 60px;
+        min-height: 8em;
+        min-width: 80%;
+        padding: .5em;
+        border: solid 1px #999;
+        box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+        margin-right:.5em;
+        resize:none;
+    }
+    input[type="checkbox"]{
+        margin-left: 40px;
+        padding-top: 0;
+        margin-top:0;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+    }
+    input[type="radio"]{
+        margin-left: 40px;
+        padding-top: 0;
+        margin-top:0;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+    }
+    .shoe_logo{
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+    input[type="reset"]{
+        margin-left: 10px;
+        padding: 5px;
+        border-radius: 6px;
+        background-color: black;
+        color: #fff;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+    input[type="submit"]{
+        margin-left: 60px;
+        padding: 5px;
+        border-radius: 6px;
+        background-color: black;
+        color: #fff;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+    input[type="reset"]:hover{
+        color: black;
+        background-color: white;
+    }
+    input[type="submit"]:hover{
+        color: black;
+        background-color: white;
+    }
+    footer{
+    width: 100%;
+    }
+    table {
+        position: absolute;
+        left: -1rem;
+        text-align: center;
+        width: calc(100% + 1rem);
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
+
+    th {
+        padding: 5px;
+        padding-bottom: 25px;
+    }
+
+    td {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .footer-link {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer-link:hover {
+        color: black;
+        background-color: white;
+        text-decoration: none;
+    }
+
+    .facebook_icon {
+        width: 50px;
+        margin-left: 620px;
+    }
+
+    .instagram_icon {
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    .twitter_icon {
+        width: 50px;
+        margin-left: 10px;
+    }
+
+    .email_icon {
+        width: 50px;
+        margin-left: 10px;
+    }
+    .back_arrow{
+    width:50px;
+    }
+    
+
+</style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="LANDING_PAGE.html"><img class="logo" src="MEDIA/shoe_store_logo.webp"></a>
+        
+        <div class="dropdown">
+            <button class="dropbtn"><a class="dropbtn" href="MEN_LANDING_PAGE.html">Men</a></button> 
+            <div class="dropdown-content">
+                <a href="CATALOG/men_basketball_catalog.html">Basketball</a>
+                <a href="CATALOG/men_gym_and_training_catalog.html">Gym and Training</a>
+                <a href="CATALOG/men_football_catalog.html">Football</a>
+                <a href="CATALOG/men_tennis_catalog.html">Tennis</a>
+                <a href="CATALOG/men_air_force_catalog.html">Air Force 1</a>
+                <a href="CATALOG/men_sneakers_catalog.html">Sneakers</a>
+                <a href="CATALOG/men_new_release.html">New Release</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn"><a class="dropbtn" href="WOMEN_LANDING_PAGE.html">Women</a></button>
+            <div class="dropdown-content">
+                <a href="CATALOG/CATEGORIES/Women Catalog/Women Basketball Shoes/Womens Basketball Shoes.html">Basketball</a>
+                <a href="CATALOG/CATEGORIES/Women Catalog/Women Gym and Training Shoes/Womens Training AND Gym Shoes.html">Gym and Training</a>
+                <a href="CATALOG/CATEGORIES/Women Catalog/Women Football Shoes/Womens Football Shoes.html">Football</a>
+                <a href="CATALOG/CATEGORIES/Women Catalog/Women Tennis Shoes/Womens Tennis Shoes.html">Tennis</a>
+                <a href="CATALOG/CATEGORIES/Women Catalog/Women Air Force 1 Shoes/Womens Air Force 1 Shoes.html">Air Force 1</a>
+                <a href="CATALOG/CATEGORIES/Women Catalog/Women Air Max Shoes/Womens Air Max Shoes.html">Sneakers</a>
+                <a href="CATALOG/CATEGORIES/Women Catalog/New Women/New Womens.html">New Release</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <button class="dropbtn"><a class="dropbtn" href="BOY'S_LANDING_PAGE.html">Boys</a></button>
+            <div class="dropdown-content">
+                <a href="CATALOG/olderkids_catalog.html">Older Kids</a>
+                <a href="CATALOG/youngerkids_catalog.html">Younger Kids</a>
+                <a href="CATALOG/running_catalog.html">Running</a>
+                <a href="CATALOG/basketball_catalog.html">Basketball</a>
+                <a href="CATALOG/jordan_catalog.html">Jordan</a>
+                <a href="CATALOG/football_catalog.html">Football</a>
+                <a href="CATALOG/new_catalog.html">New Release</a>
+            </div>
+        </div>
+    
+        <div class="dropdown">
+            <button class="dropbtn"><a class="dropbtn" href="GIRL'S_LANDING_PAGE.html">Girls</a></button>
+            <div class="dropdown-content">
+                <a href="CATALOG/OlderKids.html">Older Kids</a>
+                <a href="CATALOG/YoungerKids.html">Younger Kids</a>
+                <a href="CATALOG/Running.html">Running</a>
+                <a href="CATALOG/Basketball.html">Basketball</a>
+                <a href="CATALOG/Jordan.html">Jordan</a>
+                <a href="CATALOG/Football.html">Football</a>
+                <a href="CATALOG/New Release.html">New Release</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn"><a class="dropbtn" href="CUSTOMIZE_PAGE.html">Customize</a></button>
+            <div class="dropdown-content">
+                <a href="CATALOG/CATEGORIES/Customize Catalog/New Release/New Release.html">New Release</a>
+                <a href="CATALOG/CATEGORIES/Customize Catalog/By Sport/By Sport.html">By Sport</a>
+                <a href="CATALOG/CATEGORIES/Customize Catalog/Icons/Icons.html">Icons</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn"><a class="dropbtn" href="SALE_LANDING_PAGE.html">Sale</a></button>
+            <div class="dropdown-content">
+                <a href="CATALOG/salesmen_catalog.html">Men's Shoes Sale</a>
+                <a href="CATALOG/saleswomen_catalog.html">Women's Shoes Sale</a>
+                <a href="CATALOG/saleskids_catalog.html">Kid's Shoes Sale</a>
+            </div>
+        </div>
+        
+        <div class="dropdown">
+            <button class="dropbtn"><a class="dropbtn" href="NEW_SHOES.html">New Shoe</a></button>
+            <div class="dropdown-content">
+                <a href="CATALOG/Adidas.html">Adidas</a>
+                <a href="CATALOG/Nike.html">Nike</a>
+                <a href="CATALOG/NewBalance.html">New Balance</a>
+                <a href="CATALOG/Skechers.html">Skechers</a>
+                <a href="CATALOG/Fila.html">Fila</a>
+            </div>
+        </div>
+        
+        <a class="sign" href="LOG-IN_FORM.html">Login</a>
+        <a class="sign" href="SIGN_UP.html">Sign-Up</a>
+    </div>
+
+    <a href="SIGN_UP.html"><img src="MEDIA/back_arrow.png" alt="back arrow" class="back_arrow"></a>
+    
+    <br><br>
+
+    <section>
+        <h1>MEMBERSHIP FORM<img src="MEDIA/shoe_icon_logo.png" alt="shoe logo" class="shoe_logo"></h1>
+        
+        <form action="#" method="post">
+            
+            <fieldset>
+                
+                <h2>Member Information</h2>
+                
+                <br><br>
+                
+                <div class="name">
+                    <label for="fullname">Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Type your full name" required>
+                </div>
+            
+                <br><br><br>
+                
+                <div class="address">
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" id="address" placeholder="Type your complete address" required>
+                </div>
+                
+                <br><br><br>
+                
+                <div class="contact">
+                    <label for="contact">Contact Number:</label>
+                    <input type="phone" name="contact" id="contact" placeholder="Type your contact number" maxlength="12" minlength="12" required>
+                </div>
+                
+                <br><br><br>
+            
+                <div class="email">
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" placeholder="Type your email here" required>
+                </div>
+                
+                <br><br><br>
+
+                <div class="password">
+                    <label for="address">Password:</label>
+                    <input type="password" name="password" id="password" placeholder="Create your password here" required>
+                </div>
+
+                <br><br><br>
+
+                <div class="message">
+                    <label for="message2">Let us know on how can we improve our service</label>
+                    <textarea name="message2" id="message2" cols="30" rows="10" placeholder="Type your comments or suggestions here" required></textarea>
+                </div>
+                
+                <br>
+                
+                <input type="submit" value="Submit Form">
+                <input type="reset" value="Clear Form">
+
+            </fieldset>
+
+            <br><br><br><br>
+
+            <footer>
+                <div class="icons">
+                    <a href="https://www.facebook.com/theshoerackkPH" target="medias"><img src="MEDIA/facebook_icon.png" alt="Facebook icon" class="facebook_icon"></a>
+                    <a href="https://www.instagram.com/theshoerackkph_/" target="medias"><img src="MEDIA/instagram_icon.png" alt="Instagram icon" class="instagram_icon"></a>
+                    <a href="https://twitter.com/theshoerackPH_" target="medias"><img src="MEDIA/twitter_icon.png" alt="Twitter icon" class="twitter_icon"></a>
+                    <a href="mailto:theshoerackkph@gmail.com" target="medias"><img src="MEDIA/email_icon.png" alt="Email icon" class="email_icon"></a>
+                </div>
+                <br>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="1"></th>
+                            <th colspan="1"></th>
+                            <th colspan="1"></th>
+                            <th colspan="1"></th>
+                            <th colspan="1"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th colspan="1">About The Shoe Rack</th>
+                            <th colspan="1">Customer Service</th>
+                            <th colspan="1">Company Brands</th>
+                            <th colspan="1"></th>
+                        </tr>
+    
+                        <tr>
+                            <td><a class="a" href="aboutus.html">About Us</a></td>
+                            <td><a class="a" href="giftCard.html">Gift Cards</a></td>
+                            <td><a class="a" href="CATALOG/Adidas.html">Adidas</a></td>
+                            
+                          
+                            <th colspan="4"></th>
+                            </tr>
+                    
+                            <tr>
+                                <td><a class="a" href="abouttheauthor.html">About the Author</a></tb>
+                                <td><a class="a" href="howtopay.html">How to Pay</a></td>
+                                <td><a class="a" href="CATALOG/Nike.html">Nike</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a class="a" href="missionandvision.html">Mission and Vision</a></th>
+                                <td><a class="a" href="helpCenter.html">Help Center</a></td>
+                                <td><a class="a" href="CATALOG/NewBalance.html">New Balance</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a class="a" href="feedback.html">Send Us Feedback</a></td>
+                                <td><a class="a" href="contactUs.html">Contact Us</a></td>
+                                <td><a class="a" href="CATALOG/Skechers.html">Skechers</a></td>
+                            </tr>
+                    
+                            <tr>
+                                <td><a class="a" href="chooseus.html">Why Choose Us</a></td>
+                                <td><a class="a" href="shippingDelivery.html">Shipping and Delivery</a></td>
+                                <td><a class="a" href="CATALOG/Fila.html">Fila</a></td>
+                            </tr>
+    
+                        <tr>
+                            <td></td>
+                        </tr>
+    
+                        <tr>
+                            <td></td>
+                        </tr>
+    
+                        <tr>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </footer>
+        </form>
+    </section>
+</body>
+</html>
